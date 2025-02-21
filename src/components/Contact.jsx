@@ -11,7 +11,7 @@ const Contact = () => {
             </h2>
 
             <p className='text-gray-200 text-base mb-8 max-w-sm lg:max-w-none mx-auto'>
-                It is a long established fact will be distracted.
+                Give us a try and you won't regret it.
             </p>
 
             <button className='btn btn-accent mx-auto'>
