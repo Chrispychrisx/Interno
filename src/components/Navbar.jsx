@@ -1,8 +1,9 @@
 import logo from '../assets/logo.svg';
 
+
 const Navbar = () => {
   return (
-    <div className="container wrapper">
+    <div className="wrapper">
         <div className="container nav-div">
             <div className="">
                 <img src={logo} alt="Logo" className="logo-img" />
@@ -17,7 +18,7 @@ const Navbar = () => {
                 <a href="#" className="menu-item">Contact</a>
             </div>
         </div>
-      </div>
+    </div>
   )
 }
 

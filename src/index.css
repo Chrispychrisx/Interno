@@ -58,3 +58,4 @@ h1, h2, h3, h4, h5, h6 {
 .btn-right-arrow {
     @apply bg-accent-secondary hover:bg-accent/30 w-[45px] h-[45px] rounded-full transition-all ease-in-out duration-300
 }
+

@@ -8,6 +8,8 @@ import Testimonial from './components/Testimonial'
 import Brands from './components/Brands'
 import Projects from './components/Projects'
 import Stats from './components/Stats'
+import Blog from './components/Blog'
+import Contact from './components/Contact'
 
 const App = () => {
 
@@ -30,6 +32,10 @@ const App = () => {
       <Projects />
 
       <Stats />
+
+      <Blog />
+
+      <Contact />
     </main>
   )
 }
