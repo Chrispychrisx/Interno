@@ -16,18 +16,18 @@ const Price = () => {
                     </div>
                     <div className="flex flex-col gap-1 grid-cols-1">
                         <p className='text-lg font-[550] mt-4 flex justify-between  rounded-[10px] p-[8px] bg-accent-secondary'>
-                        Decoration
-                        <RiCheckLine className="text-lg text-gray-400" />
+                        Decorations
+                        <RiCheckLine className="text-lg text-blue-200" />
                         </p>
 
                         <p className='text-lg font-[550] mt-4 flex justify-between  rounded-[10px] p-[8px] bg-accent-secondary'>
                         Wall Painting
-                        <RiCheckLine className="text-lg text-gray-400" />
+                        <RiCheckLine className="text-lg text-blue-200" />
                         </p>
 
                         <p className='text-lg font-[550] mt-4 flex justify-between  rounded-[10px] p-[8px] bg-accent-secondary'>
                         Arts & Design
-                        <RiCheckLine className="text-lg text-gray-400" />
+                        <RiCheckLine className="text-lg text-blue-200" />
                         </p>
 
                         <p className='text-lg font-[550] mt-4 flex justify-between  rounded-[10px] p-[8px] bg-accent-secondary'>
@@ -41,7 +41,7 @@ const Price = () => {
                         </p>
 
                         <p className='text-lg font-[550] mt-4 flex justify-between  rounded-[10px] p-[8px] bg-accent-secondary'>
-                        Solar Device
+                        Solar Powering
                         <RiCloseFill className="text-lg text-red-400" />
                         </p>
                     </div>
@@ -54,23 +54,23 @@ const Price = () => {
                     </div>
                     <div className="flex flex-col gap-1 grid-cols-1">
                         <p className='text-lg font-[550] mt-4 flex justify-between  rounded-[10px] p-[8px] bg-accent-secondary'>
-                        Decoration
-                        <RiCheckLine className="text-lg text-gray-400" />
+                        Decorations
+                        <RiCheckLine className="text-lg text-blue-200" />
                         </p>
 
                         <p className='text-lg font-[550] mt-4 flex justify-between  rounded-[10px] p-[8px] bg-accent-secondary'>
                         Wall Painting
-                        <RiCheckLine className="text-lg text-gray-400" />
+                        <RiCheckLine className="text-lg text-blue-200" />
                         </p>
 
                         <p className='text-lg font-[550] mt-4 flex justify-between  rounded-[10px] p-[8px] bg-accent-secondary'>
                         Arts & Design
-                        <RiCheckLine className="text-lg text-gray-400" />
+                        <RiCheckLine className="text-lg text-blue-200" />
                         </p>
 
                         <p className='text-lg font-[550] mt-4 flex justify-between  rounded-[10px] p-[8px] bg-accent-secondary'>
                         Lightings
-                        <RiCheckLine className="text-lg text-gray-400" />
+                        <RiCheckLine className="text-lg text-blue-200" />
                         </p>
 
                         <p className='text-lg font-[550] mt-4 flex justify-between  rounded-[10px] p-[8px] bg-accent-secondary'>
@@ -79,7 +79,7 @@ const Price = () => {
                         </p>
 
                         <p className='text-lg font-[550] mt-4 flex justify-between  rounded-[10px] p-[8px] bg-accent-secondary'>
-                        Solar Device
+                        Solar Powering
                         <RiCloseFill className="text-lg text-red-400" />
                         </p>
                     </div>
@@ -92,33 +92,33 @@ const Price = () => {
                     </div>
                     <div className="flex flex-col gap-1 grid-cols-1">
                         <p className='text-lg font-[550] mt-4 flex justify-between  rounded-[10px] p-[8px] bg-accent-secondary'>
-                        Decoration
-                        <RiCheckLine className="text-lg text-gray-400" />
+                        Decorations
+                        <RiCheckLine className="text-lg text-blue-200" />
                         </p>
 
                         <p className='text-lg font-[550] mt-4 flex justify-between  rounded-[10px] p-[8px] bg-accent-secondary'>
                         Wall Painting
-                        <RiCheckLine className="text-lg text-gray-400" />
+                        <RiCheckLine className="text-lg text-blue-200" />
                         </p>
 
                         <p className='text-lg font-[550] mt-4 flex justify-between  rounded-[10px] p-[8px] bg-accent-secondary'>
                         Arts & Design
-                        <RiCheckLine className="text-lg text-gray-400" />
+                        <RiCheckLine className="text-lg text-blue-200" />
                         </p>
 
                         <p className='text-lg font-[550] mt-4 flex justify-between  rounded-[10px] p-[8px] bg-accent-secondary'>
                         Lightings
-                        <RiCheckLine className="text-lg text-gray-400" />
+                        <RiCheckLine className="text-lg text-blue-200" />
                         </p>
 
                         <p className='text-lg font-[550] mt-4 flex justify-between  rounded-[10px] p-[8px] bg-accent-secondary'>
                         CCTV Cameras
-                        <RiCheckLine className="text-lg text-gray-400" />
+                        <RiCheckLine className="text-lg text-blue-200" />
                         </p>
 
                         <p className='text-lg font-[550] mt-4 flex justify-between  rounded-[10px] p-[8px] bg-accent-secondary'>
-                        Solar Device
-                        <RiCheckLine className="text-lg text-gray-400" />
+                        Solar Powering
+                        <RiCheckLine className="text-lg text-blue-200" />
                         </p>
                     </div>
                 </div>
