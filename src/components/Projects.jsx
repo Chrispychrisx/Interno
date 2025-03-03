@@ -22,8 +22,8 @@ const Projects = () => {
 
                     <div className="flex justify-between items-center w-full">
                         <div className="mt-3">
-                            <h3 className='text-[1.2rem] font-semibold'>Modern Room</h3>
-                            <p className='text-[1rem]'>Decor/Architecture</p>
+                            <h3 className='text-[1.2rem] font-semibold ml-7'>Modern Room</h3>
+                            <p className='text-[1rem] ml-7'>Decor/Architecture</p>
                         </div>
 
                         <button className='btn-right-arrow'>
@@ -37,8 +37,8 @@ const Projects = () => {
 
                     <div className="flex justify-between items-center w-full">
                         <div className="mt-3">
-                            <h3 className='text-[1.2rem] font-semibold'>Modern Kitchen</h3>
-                            <p className='text-[1rem]'>Decor/Architecture</p>
+                            <h3 className='text-[1.2rem] font-semibold ml-7'>Modern Kitchen</h3>
+                            <p className='text-[1rem] ml-7'>Decor/Architecture</p>
                         </div>
 
                         <button className='btn-right-arrow'>
@@ -52,8 +52,8 @@ const Projects = () => {
 
                     <div className="flex justify-between items-center w-full">
                         <div className="mt-3">
-                            <h3 className='text-[1.2rem] font-semibold'>Living Room</h3>
-                            <p className='text-[1rem]'>Decor/Architecture</p>
+                            <h3 className='text-[1.2rem] font-semibold ml-7'>Living Room</h3>
+                            <p className='text-[1rem] ml-7'>Decor/Architecture</p>
                         </div>
 
                         <button className='btn-right-arrow'>
@@ -67,8 +67,8 @@ const Projects = () => {
 
                     <div className="flex justify-between items-center w-full">
                         <div className="mt-3">
-                            <h3 className='text-[1.2rem] font-semibold'>Reading Center</h3>
-                            <p className='text-[1rem]'>Decor/Architecture</p>
+                            <h3 className='text-[1.2rem] font-semibold ml-7'>Reading Center</h3>
+                            <p className='text-[1rem] ml-7'>Decor/Architecture</p>
                         </div>
 
                         <button className='btn-right-arrow'>

@@ -111,7 +111,7 @@ const Footer = () => {
                                 55 East Allen Ave. Brooklyn, New York 11201
                             </p>
                             <p>Contact@interno.com</p>
-                            <p>+234 911 252 4812</p>
+                            <p>+234 808 062 0189</p>
                         </div>
                     </div>
 
