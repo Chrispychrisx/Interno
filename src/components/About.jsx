@@ -1,12 +1,32 @@
 import { RiArrowRightLine, RiPhoneFill } from '@remixicon/react'
 import React from 'react'
+import {motion} from 'framer-motion'
+
+export const SlideRight = (delay) => {
+    return {
+        initial: {
+            opacity: 0,
+            x: -100
+        },
+        animate: {
+            opacity: 1,
+            x: 0,
+            transition: {
+                delay: delay,
+                duration: 0.4,
+                ease: 'easeInOut'
+            }
+
+        }
+    }
+}
 
 const About = () => {
   return (
     <section className='about mt-[80px] relative z-20'>
         <div className="container mx-auto lg:px-0">
             <div className="flex flex-col lg:flex-row text-center lg:text-left justify-center items-center gap-8 lg:gap-[75px]">
-                <div className="flex-1 order-2 lg:order-none max-w-xl lg:min-w-[410px] flex flex-col items-center lg:items-start gap-8">
+                <motion.div variants={SlideRight(0.6)} initial='initial' whileInView={"animate"} viewport={{once: true}} className="flex-1 order-2 lg:order-none max-w-xl lg:min-w-[410px] flex flex-col items-center lg:items-start gap-8">
                     <h2 className='text-4xl font-semibold'>
                         We Create The Art Of Stylish Living Stylishly
                     </h2>
@@ -33,8 +53,8 @@ const About = () => {
                         Get free estimation
                         <RiArrowRightLine size={15} className='text-white' />
 
-                </button>
-                </div>
+                    </button>
+                </motion.div>
 
                 <div className="about__img order-1 lg:order-none max-w-[450px] lg:max-w-none lg:mx-0">
                     <img src="../src/assets/about/img.png" alt="about img" />                   

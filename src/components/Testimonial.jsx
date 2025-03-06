@@ -4,6 +4,89 @@ import text_2 from '../assets/testimonial/02.png'
 import text_3 from '../assets/testimonial/03.png'
 import text_4 from '../assets/testimonial/04.png'
 import { RiUser3Line } from '@remixicon/react'
+import {motion} from 'framer-motion'
+
+
+
+
+export const SlideLeft = (delay) => {
+    return {
+        initial: {
+            opacity: 0,
+            y: 100
+        },
+        animate: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                delay: delay,
+                duration: 0.3,
+                ease: 'easeInOut'
+            }
+
+        }
+    }
+}
+
+export const SlideDown = (delay) => {
+    return {
+        initial: {
+            opacity: 0,
+            y: -100
+        },
+        animate: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                delay: delay,
+                duration: 0.3,
+                ease: 'easeInOut'
+            }
+
+        }
+    }
+}
+
+export const SlideRight = (delay) => {
+    return {
+        initial: {
+            opacity: 0,
+            x: 100
+        },
+        animate: {
+            opacity: 1,
+            x: 0,
+            transition: {
+                delay: delay,
+                duration: 0.3,
+                ease: 'easeInOut'
+            }
+
+        }
+    }
+}
+
+
+export const SlideUp = (delay) => {
+    return {
+        initial: {
+            opacity: 0,
+            x: -100
+        },
+        animate: {
+            opacity: 1,
+            x: 0,
+            transition: {
+                delay: delay,
+                duration: 0.3,
+                ease: 'easeInOut'
+            }
+
+        }
+    }
+}
+
+
 
 const Testimonial = () => {
   return (
@@ -13,7 +96,7 @@ const Testimonial = () => {
       </h1>
 
       <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 justify-center gap-8 h-full overflow-hidden">
-            <div className="slide">
+            <motion.div variants={SlideLeft(0.3)} initial='initial' whileInView={"animate"} viewport={{once: true}} className="slide">
                 <div className="title">
                     <img src={text_1} alt="" className='w-14'/>
                     <div className="">
@@ -36,9 +119,9 @@ const Testimonial = () => {
                         Home owner
                     </span>
                 </div>
-            </div>
+            </motion.div>
 
-            <div className="slide">
+            <motion.div variants={SlideDown(0.5)} initial='initial' whileInView={"animate"} viewport={{once: true}} className="slide">
                 <div className="title">
                     <img src={text_2} alt="" className='w-14'/>
                     <div className="">
@@ -63,9 +146,9 @@ const Testimonial = () => {
                         Tenant
                     </span>
                 </div>
-            </div>
+            </motion.div>
 
-            <div className="slide">
+            <motion.div variants={SlideRight(0.7)} initial='initial' whileInView={"animate"} viewport={{once: true}} className="slide">
                 <div className="title">
                     <img src={text_3} alt="" className='w-14'/>
                     <div className="">
@@ -88,9 +171,9 @@ const Testimonial = () => {
                         Estate Developer
                     </span>
                 </div>
-            </div>
+            </motion.div>
 
-            <div className="slide">
+            <motion.div variants={SlideUp(0.9)} initial='initial' whileInView={"animate"} viewport={{once: true}} className="slide">
                 <div className="title">
                     <img src={text_4} alt="" className='w-14'/>
                     <div className="">
@@ -113,7 +196,7 @@ const Testimonial = () => {
                         Interior Expert
                     </span>
                 </div>
-            </div>
+            </motion.div>
       </div>
     </section>
   )

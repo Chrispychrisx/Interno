@@ -23,7 +23,7 @@ const Blog = () => {
                     Let’s Get Solution For Building Construction Work</h3>
 
                   <div className="flex justify-between items-center">
-                    <p className='text-base'>22 June,2024</p>
+                    <p className='text-base'>22 June, 2024</p>
                     <button className='bg-accent-secondary w-[38px] h-[38px] rounded-full group-hover:bg-white transition-all duration-300'>
                       <RiArrowRightSLine size={32} className='text-gray-500 pl-1' />
                     </button>
@@ -39,7 +39,7 @@ const Blog = () => {
                     Low Cost Latest Invented Interior Designing Ideas.</h3>
 
                   <div className="flex justify-between items-center">
-                    <p className='text-base'>24 June,2024</p>
+                    <p className='text-base'>24 June, 2024</p>
                     <button className='bg-accent-secondary w-[38px] h-[38px] rounded-full group-hover:bg-white transition-all duration-300'>
                       <RiArrowRightSLine size={32} className='text-gray-500 pl-1' />
                     </button>
@@ -56,7 +56,7 @@ const Blog = () => {
                   Solution</h3>
 
                   <div className="flex justify-between items-center">
-                    <p className='text-base'>28 June,2024</p>
+                    <p className='text-base'>28 June, 2024</p>
                     <button className='bg-accent-secondary w-[38px] h-[38px] rounded-full group-hover:bg-white transition-all duration-300'>
                       <RiArrowRightSLine size={32} className='text-gray-500 pl-1' />
                     </button>
