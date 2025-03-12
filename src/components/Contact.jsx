@@ -1,9 +1,10 @@
 import { RiArrowRightLine } from '@remixicon/react'
 import React from 'react'
+import { Link } from 'react-scroll';
 
 const Contact = () => {
   return (
-    <section className='z-20 mt-[80px] lg:mt-[150px]'>
+    <section className='z-20 mt-[80px] lg:mt-[150px]' id='contact'>
       <div className="contact containter mx-auto bg-zinc-600 sm:rounded-3xl py-[80px] lg:mt-[150px]">
         <div className="contact__text max-w-[640px] mx-auto text-center">
             <h2 className='text-3xl text-white mb-4 '>

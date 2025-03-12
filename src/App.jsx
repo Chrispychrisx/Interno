@@ -2,7 +2,6 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Steps from './components/Steps'
-import Artpage from './components/artpage'
 import About from './components/About'
 import Testimonial from './components/Testimonial'
 import Brands from './components/Brands'
@@ -24,8 +23,6 @@ const App = () => {
       <Steps />   
 
       <About />
-
-      <Artpage />
 
       <Testimonial />
 

@@ -5,6 +5,7 @@ import text_3 from '../assets/testimonial/03.png'
 import text_4 from '../assets/testimonial/04.png'
 import { RiUser3Line } from '@remixicon/react'
 import {motion} from 'framer-motion'
+import { Link } from 'react-scroll';
 
 
 
@@ -90,7 +91,7 @@ export const SlideUp = (delay) => {
 
 const Testimonial = () => {
   return (
-    <section className='mt-[120px] container mx-auto '>
+    <section className='mt-[120px] container mx-auto' id='testimonial'>
       <h1 className='text-4xl font-semibold mb-8 text-center'>
             What our client says
       </h1>

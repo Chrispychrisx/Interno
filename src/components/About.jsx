@@ -1,6 +1,7 @@
 import { RiArrowRightLine, RiPhoneFill } from '@remixicon/react'
 import React from 'react'
 import {motion} from 'framer-motion'
+import { Link } from 'react-scroll';
 
 export const SlideRight = (delay) => {
     return {
@@ -23,7 +24,7 @@ export const SlideRight = (delay) => {
 
 const About = () => {
   return (
-    <section className='about mt-[80px] relative z-20'>
+    <section className='about mt-[80px] relative z-20' id='about-us'>
         <div className="container mx-auto lg:px-0">
             <div className="flex flex-col lg:flex-row text-center lg:text-left justify-center items-center gap-8 lg:gap-[75px]">
                 <motion.div variants={SlideRight(0.6)} initial='initial' whileInView={"animate"} viewport={{once: true}} className="flex-1 order-2 lg:order-none max-w-xl lg:min-w-[410px] flex flex-col items-center lg:items-start gap-8">

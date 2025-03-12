@@ -1,6 +1,7 @@
 import heroImg from '../assets/hero/bg.jpg'
 import {animate, motion} from 'framer-motion'
 
+
 export const SlideUp = (delay) => {
   return {
     initial: {
@@ -23,7 +24,7 @@ export const SlideUp = (delay) => {
 const Hero = () => {
   return (
     <section className='hero h-[640px] bg-center bg-no-repeat bg-fixed relative z-20 mt-7 lg:rounded-bl-[290px]' 
-        style={{ backgroundImage: `url(${heroImg})` }}>
+        style={{ backgroundImage: `url(${heroImg})` }} id='home'>
         <div className="container mx-auto h-full flex items-center justify-center">
             <div className="hero__text">
                 <motion.h1 
